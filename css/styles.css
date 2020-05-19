@@ -62,6 +62,9 @@ section {
 
 
 /* ---- Module Rules ---- */
+.hide_element{
+    display: none;
+}
 
 /* Navigation Styles*/
 .navbar__menu ul {
@@ -80,6 +83,10 @@ section {
     font-weight: bold;
     text-decoration: none;
     color: #000;
+}
+
+.navbar__menu .active_menu__link{
+    color: #cc1;
 }
 
 .navbar__menu .menu__link:hover {
